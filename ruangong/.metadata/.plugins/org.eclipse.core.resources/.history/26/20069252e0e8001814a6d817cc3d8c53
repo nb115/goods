@@ -1,0 +1,36 @@
+package cn;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+public class CallName {
+public static void main(String[] args) {
+	ArrayList<Student> array=new ArrayList<Student>();
+}
+
+public static void randomStudent(ArrayList<Student> array) {
+	Random r=new Random();
+	int index=r.nextInt();
+	Student s=array.get(index);
+	System.out.println(s.getName());
+}
+
+public static void printStudent (ArrayList<Student> array) {
+	for (int i=0; i<array.size();i++)
+	{
+		Student s=array.get(i);
+		System.out.println(s.getName()+"..."+s.getAge());
+		
+	}
+	
+}
+	
+
+public static  void addStudent(ArrayList<Student> array) {
+	Student s1=new Student();
+	s1.setName("lisi1");
+	s1.setAge(121);
+}
+
+	
+}

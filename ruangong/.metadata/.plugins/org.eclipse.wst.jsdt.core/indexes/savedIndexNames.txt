@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\ruangong\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2669104024.index
+4205264188.index
+164570911.index
+567757003.index
+14388858.index
+2103533665.index

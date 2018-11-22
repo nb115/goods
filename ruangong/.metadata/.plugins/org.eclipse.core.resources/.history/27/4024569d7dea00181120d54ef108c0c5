@@ -1,0 +1,8 @@
+package aaa;
+
+public class Zi {
+	int a = 2;
+	public void show(){
+		System.out.println("子类方法");
+	}
+}

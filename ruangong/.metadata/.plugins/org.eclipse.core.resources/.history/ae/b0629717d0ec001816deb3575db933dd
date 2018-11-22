@@ -1,0 +1,8 @@
+package aaa;
+
+public class Fu {
+public int num=100;
+public static void method() {
+	System.out.println(this.num);
+}
+}
